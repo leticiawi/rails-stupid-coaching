@@ -1,0 +1,28 @@
+
+
+<div class="d-flex justify-content py-5">
+  <form action="/answer" method="get">
+  <div class="form-group">
+    <label for="exampleInputEmail1">What do you want to know?</label>
+    <input type="text" class="form-control" name="ask" placeholder="Enter your question">
+    <input class="btn btn-info" type="submit" value="Ask!">
+  </div>
+  <div class="card-footer text-muted">
+
+    <div class="d-flex justify-content-between">
+        <span class="border border-primary rounded p-1">
+        <%= link_to "Answer Page", answer_path %>
+        </span>
+
+        <span class="border border-primary rounded p-1">
+        <%= link_to "Home", root_path %>
+        </span>
+
+    </div>
+
+  </div>
+  </form>
+</div>
+
+
+

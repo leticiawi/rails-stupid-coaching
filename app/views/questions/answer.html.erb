@@ -1,0 +1,25 @@
+
+<div class="d-flex justify-content-center p-5">
+  <div class="card" style="width: 25rem;">
+    <div class="card-body">
+      <h2 class="card-title border p-1">Check out your coach´s answer!</h2>
+      <h4 class="card-subtitle mb-2 text-muted">Here it is:</h4>
+      <h5 class="card-text"><%= @coach %></h5>
+      <div class="card-footer text-muted">
+
+          <div class="d-inline-flex p-2">
+              <span class="border border-primary rounded p-1">
+              <%= link_to "Ask Page", ask_path %>
+              </span>
+
+              <span class="border border-primary rounded p-1">
+              <%= link_to "Home", root_path %>
+              </span>
+
+          </div>
+
+    </div>
+  </div>
+</div>
+
+
